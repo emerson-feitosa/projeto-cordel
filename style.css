@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mynerve&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mynerve&family=Sriracha&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    min-height: 100vh; /* Configuração para que o body ocupe toda a altura vertical da página*/
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: justify;
+    
+    
+    
+}
+header{
+   margin: auto;
+   text-align: center; 
+   background-color: black ;
+   color: white;
+   height: 230px;
+   font-family: 'Passion One', 'cursive', sans-serif;
+   font-size: 1.5em;
+
+   
+
+}
+header > h1 {
+   padding-top: 70px;
+   font-variant: small-caps; /* Comando para que o texto fique todo em letra maiúscula, mas com as letras iniciais maiores do que as demais*/
+}
+header > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    font-size: 0.8em;
+    
+     
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.24);
+    
+}
+main{
+    line-height: 2em;
+    font-size: 1.2em;
+    margin-left: 10px;
+    font-family: 'sriracha', 'cursive', sans-serif;
+
+
+    
+    
+}
+article{
+   background-image: url('imagens/background001.jpg'); 
+   background-position:  right center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+   height: 600px;
+   margin-top: 60px;
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+   
+  
+}
+article > #p1{
+    color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.486);
+    display: inline-block; /* Utilizar o comando display: inline-block já faria um quadradro ao redor do parágrafo exatamente do seu tamanho*/
+     /* Aqui tinha um comando " POSITION: ABSOLUTE" Utilizar padding top e bottom 10vh tornaria desnecessário essa parte*/
+    text-align: justify;
+    font-weight: lighter;
+    padding: 6px;
+    padding-left: 40px;
+
+          
+}
+section{
+    background-image: url('imagens/background002.jpg');
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Comando para a imagem mudar quando rolar para baixo ou para cima*/
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473); /* Comando para colocar sombra ao redor da imagem de fundo*/
+    height: 600px;
+    margin-top: 60px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section > #p2{
+    color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
+    background-color:rgba(0, 0, 0, 0.671);
+    display: inline-block;
+     /*  aqui tinha um comando "position: absolute" Utilizar padding top e bottom 10vh tornaria desnecessário essa parte*/
+    text-align: justify;
+    font-weight: 550;
+    padding: 6px;
+    padding-left: 40px;
+   
+    
+}
+.paragrafo{
+  padding: 30px;
+  margin-top: 60px; /* para dar o espaçamento entre parágrafos*/
+     
+}
+footer{
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+/* Utilizar o comando padding-top e padding-bottom 10vh já seria suficiente para dar esse espaçamento entre cada parágrafo*/
+
+/* Utilizar o comando font-size: 10vh por exemplo, serve para quando a página aumentar ou diminuir de tamanho as letras também aumentarão ou diminuirão*/
+   
+  
+    
+    
+   
+
+    
+
+
